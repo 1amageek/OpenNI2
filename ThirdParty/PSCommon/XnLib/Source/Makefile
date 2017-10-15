@@ -14,10 +14,10 @@ SRC_FILES = \
 ifeq ("$(OSTYPE)","Darwin")
 	INC_DIRS += \
 		/usr/local/include \
-		/opt/local/include
+		/usr/local/include
 	LIB_DIRS += \
 		/usr/local/lib \
-		/opt/local/lib
+		/usr/local/lib
 	LDFLAGS += \
 		-framework CoreFoundation \
 		-framework IOKit

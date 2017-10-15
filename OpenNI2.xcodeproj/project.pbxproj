@@ -1,0 +1,170 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1216A6DA1F939CBE0086C826 /* Packaging */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Packaging; sourceTree = "<group>"; };
+		1216A6DB1F939CBE0086C826 /* Wrappers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Wrappers; sourceTree = "<group>"; };
+		1216A6DC1F939CBE0086C826 /* Android.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		1216A6DD1F939CBE0086C826 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1216A6DE1F939CBE0086C826 /* Application.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Application.mk; sourceTree = "<group>"; };
+		1216A6DF1F939CBE0086C826 /* ReleaseNotes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		1216A6E01F939CBE0086C826 /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Config; sourceTree = "<group>"; };
+		1216A6E11F939CBE0086C826 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1216A6E21F939CBE0086C826 /* Include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Include; sourceTree = "<group>"; };
+		1216A6E31F939CBE0086C826 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
+		1216A6E41F939CBE0086C826 /* OpenNI.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = OpenNI.sln; sourceTree = "<group>"; };
+		1216A6E51F939CBE0086C826 /* NOTICE */ = {isa = PBXFileReference; lastKnownFileType = text; path = NOTICE; sourceTree = "<group>"; };
+		1216A6E61F939CBE0086C826 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1216A6E71F939CBE0086C826 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
+		1216A6E81F939CBE0086C826 /* CHANGES.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES.txt; sourceTree = "<group>"; };
+		1216A6E91F939CBE0086C826 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1216A6EA1F939CBE0086C826 /* .git */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .git; sourceTree = "<group>"; };
+		1216A6EB1F939CBE0086C826 /* ThirdParty */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ThirdParty; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1216A6D41F939CBE0086C826 = {
+			isa = PBXGroup;
+			children = (
+				1216A6DA1F939CBE0086C826 /* Packaging */,
+				1216A6DB1F939CBE0086C826 /* Wrappers */,
+				1216A6DC1F939CBE0086C826 /* Android.mk */,
+				1216A6DD1F939CBE0086C826 /* LICENSE */,
+				1216A6DE1F939CBE0086C826 /* Application.mk */,
+				1216A6DF1F939CBE0086C826 /* ReleaseNotes.txt */,
+				1216A6E01F939CBE0086C826 /* Config */,
+				1216A6E11F939CBE0086C826 /* Makefile */,
+				1216A6E21F939CBE0086C826 /* Include */,
+				1216A6E31F939CBE0086C826 /* Source */,
+				1216A6E41F939CBE0086C826 /* OpenNI.sln */,
+				1216A6E51F939CBE0086C826 /* NOTICE */,
+				1216A6E61F939CBE0086C826 /* README.md */,
+				1216A6E71F939CBE0086C826 /* Samples */,
+				1216A6E81F939CBE0086C826 /* CHANGES.txt */,
+				1216A6E91F939CBE0086C826 /* .gitignore */,
+				1216A6EA1F939CBE0086C826 /* .git */,
+				1216A6EB1F939CBE0086C826 /* ThirdParty */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1216A6D91F939CBE0086C826 /* OpenNI2 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 1216A6EC1F939CBE0086C826 /* Build configuration list for PBXLegacyTarget "OpenNI2" */;
+			buildPhases = (
+			);
+			buildToolPath = /Applications/Xcode.app/Contents/Developer/usr/bin/make;
+			buildWorkingDirectory = /Users/1amageek/Desktop/OpenNI2;
+			dependencies = (
+			);
+			name = OpenNI2;
+			passBuildSettingsInEnvironment = 1;
+			productName = OpenNI2;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		1216A6D51F939CBE0086C826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1216A6D81F939CBE0086C826 /* Build configuration list for PBXProject "OpenNI2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1216A6D41F939CBE0086C826;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1216A6D91F939CBE0086C826 /* OpenNI2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1216A6D61F939CBE0086C826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1216A6D71F939CBE0086C826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		1216A6ED1F939CBE0086C826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = OpenNI2;
+			};
+			name = Debug;
+		};
+		1216A6EE1F939CBE0086C826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = OpenNI2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1216A6D81F939CBE0086C826 /* Build configuration list for PBXProject "OpenNI2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1216A6D61F939CBE0086C826 /* Debug */,
+				1216A6D71F939CBE0086C826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1216A6EC1F939CBE0086C826 /* Build configuration list for PBXLegacyTarget "OpenNI2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1216A6ED1F939CBE0086C826 /* Debug */,
+				1216A6EE1F939CBE0086C826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1216A6D51F939CBE0086C826 /* Project object */;
+}
